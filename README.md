@@ -1,6 +1,6 @@
 # AutoBundleInstall
 
-Automatically run 'bundle install' in your Rails/Sinatra/etc. application
+This gem watch for changes in Gemfile and automatically run 'bundle install' in your Rails/Sinatra/etc. application
 
 ## Installation
 
@@ -12,15 +12,11 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install auto_bundle_install
-
 ## Usage
 
 Rails:
 
-```>rails s```
+    rails s
 
 Sinatra:
 
@@ -29,7 +25,7 @@ Sinatra:
 require 'auto_bundle_install'
 ```
 
-```>ruby app.rb```
+    ruby app.rb
 
 ## Contributing
 
